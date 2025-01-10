@@ -180,6 +180,8 @@ export const AuthenticatorCreateWizardFactory: FC<AuthenticatorCreateWizardFacto
             setSelectedTemplate(connectionTemplate);
         }
 
+        console.log("Type: " + type);
+
         getPossibleListOfDuplicateIDPs();
         handleModalVisibility(true);
     }, [ connectionTemplate, type ]);

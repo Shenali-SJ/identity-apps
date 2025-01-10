@@ -1,0 +1,158 @@
+/**
+ * Copyright (c) 2024, WSO2 LLC. (https://www.wso2.com).
+ *
+ * WSO2 LLC. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+ .form-wrapper {
+    .form-container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .box-container {
+        background-color: #f9fafb;
+        border-radius: 8px;
+        padding: 30px;
+
+        .box-field {
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .text-field-container {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .select-field-container {
+        margin-bottom: 8px;
+    }
+
+    .hint-text {
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+    .divider-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .heading-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .button-container {
+        margin-top: 30px;
+    }
+
+    .alert-title {
+        font-weight: 100;
+    }
+
+    .secondary-button {
+        margin-top: 10px;
+    }
+
+    .placeholder {
+        border-radius: 8px;
+        margin-bottom: 8px;
+
+        &.label {
+            height: 20px;
+            max-width: 100px;
+        }
+
+        &.text-field {
+            height: 40px;
+        }
+    }
+
+    .placeholder-box {
+        > * {
+            margin-bottom: 8px; 
+        }
+    }
+}
+
+.sub-template-selection {
+    label {
+        // display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .selection-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        height: 260px;
+        margin-top: auto;
+        white-space: normal;
+        text-align: center;
+
+        .card {
+            flex: 1;
+            height: "260px";
+            color: "blue"
+        }
+
+        // .card-header {
+        //     white-space: normal;
+        //     font-weight: bold;
+        //     margin: 20px;
+        // }
+
+        // .card-description {
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: space-between;
+        //     white-space: normal;
+
+        //     p {
+        //         margin-bottom: 15px;
+
+        //         &:last-child {
+        //             margin-bottom: 0;
+        //         }
+        //     }
+        // }
+
+        // .card-overlay {
+        //     opacity: 0.6;
+        // }
+
+        // &.selected {
+        //     border: 2px solid #0078d4; // Example for a selected state border
+        // }
+    }
+
+    .card-image {
+        width: auto;
+
+        &.relaxed {
+            margin: auto;
+        }
+
+        &.square {
+            border-radius: 0;
+        }
+    }
+}

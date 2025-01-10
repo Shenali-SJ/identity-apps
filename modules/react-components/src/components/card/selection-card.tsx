@@ -198,7 +198,7 @@ export const SelectionCard: FunctionComponent<SelectionCardPropsInterface> = (
                 image && !imageInline && (
                     <Card.Content
                         className="card-image-container"
-                        style={ imageContainerStyles() }
+                        style={ { height: "10px" } }
                     >
                         <GenericIcon
                             className="card-image"

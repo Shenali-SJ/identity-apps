@@ -276,6 +276,13 @@ const ActionConfigForm: FunctionComponent<ActionConfigFormInterface> = ({
         return error;
     };
 
+    useEffect (() => {
+        console.log("Current authenticationType 1:", authenticationType);
+        // LocalAuthenticatorConstants.AUTH_TYPES.forEach((type:AuthenticationTypeDropdownOption) => {
+        //     console.log("Option:" + type.text);
+        // });
+    }, []);
+
     const handleSubmit = (
         values: ActionConfigFormPropertyInterface,
         changedFields: ActionConfigFormPropertyInterface) =>
